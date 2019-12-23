@@ -1,2 +1,2 @@
-FROM ccr.ccs.tencentyun.com/qcloud/ubuntu:16.04
-RUN echo 1
+FROM node:9.3.0-alpine
+COPY README.md /
